@@ -12,9 +12,9 @@
 #X obj 665 237 * -1;
 #X obj 318 1208 adr~ 550 250 850;
 #X obj 655 54 random_source 0.5 48 1;
-#X obj 873 648 r Channel-A;
-#X obj 909 928 r Channel-B;
-#X obj 1180 650 r Channel-C;
+#X obj 873 648 r Channel_A @owl A 0 1 0;
+#X obj 909 928 r Channel_B @owl B 0 1 0;
+#X obj 1180 650 r Channel_C @owl C 0 1 0;
 #X obj 954 836 s \$0-tempo;
 #X obj 999 651 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;

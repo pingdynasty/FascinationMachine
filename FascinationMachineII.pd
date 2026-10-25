@@ -1,7 +1,7 @@
 #N canvas 0 27 1366 719 10;
 #X obj 379 693 dac~;
 #X obj 522 -103 stoicheia 4 0 8;
-#X obj 762 -193 r Channel-A;
+#X obj 762 -193 r Channel_A @owl A 0 1 0;
 #X obj 764 -100 * 20;
 #X obj 764 -78 int;
 #X obj 762 -55 change;
@@ -18,7 +18,7 @@
 #X obj 101 -60 r \$0-tranpose;
 #X obj 553 154 f;
 #X obj 596 103 r \$0-tranpose;
-#X obj 1082 -129 r Channel-B;
+#X obj 1082 -129 r Channel_B @owl B 0 1 0;
 #X obj 1082 -63 int;
 #X obj 1082 -41 change;
 #X obj 1176 -126 hsl 128 15 0 1 0 0 empty empty transpose -2 -8 0 10
@@ -30,7 +30,7 @@
 #X obj 773 -127 -;
 #X obj 1152 87 hsl 128 15 0 1 0 0 empty empty intensity -2 -8 0 10
 -262144 -1 -1 0 1;
-#X obj 1057 90 r Channel-C;
+#X obj 1057 90 r Channel_C @owl C 0 1 0;
 #X obj 1057 200 s \$0-intensity;
 #X obj 1057 112 * 20;
 #X obj 1057 134 int;

@@ -14,9 +14,9 @@
 #X obj 388 651 vcf_2pole~ 2000 3;
 #X obj 462 607 * 5;
 #X obj 550 583 adr~ 200 150 70;
-#X obj 744 102 r Channel-A;
-#X obj 780 382 r Channel-B;
-#X obj 1051 104 r Channel-C;
+#X obj 744 102 r Channel_A @owl A 0 1 0;
+#X obj 780 382 r Channel_B @owl B 0 1 0;
+#X obj 1051 104 r Channel_C @owl C 0 1 0;
 #X obj 821 211 * 2000;
 #X obj 824 247 + 100;
 #X obj 825 290 s \$0-tempo;

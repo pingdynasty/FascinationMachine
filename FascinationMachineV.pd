@@ -3,7 +3,7 @@
 haven't yet \, go buy his "designing sound" - "The War and Peace of
 visual programming handbooks";
 #X obj 124 175 birds;
-#X obj 383 10 r Channel-C;
+#X obj 383 10 r Channel_C @owl C 0 1 0;
 #X obj 383 35 * 20;
 #X obj 381 57 int;
 #X obj 383 79 change;
@@ -24,14 +24,14 @@ visual programming handbooks";
 #X obj 435 91;
 #X obj 7 37 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
-#X obj 14 177 r Channel-A;
+#X obj 14 177 r Channel_A @owl A 0 1 0;
 #X obj 388 248 * 20;
 #X obj 386 270 int;
 #X obj 388 292 change;
 #X obj 388 314 / 20;
 #X obj 448 262 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
-#X obj 388 223 r Channel-B;
+#X obj 388 223 r Channel_B @owl B 0 1 0;
 #X obj 256 140 * 0.8;
 #X obj 128 208 pingpong5~ 100 0.6 0.5 0.5;
 #X connect 1 0 29 0;
